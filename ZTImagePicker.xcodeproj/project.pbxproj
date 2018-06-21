@@ -31,6 +31,7 @@
 		6C1863A220DB8CD800758A0A /* ZTImagePickerOverLayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C18639C20DB8CD800758A0A /* ZTImagePickerOverLayView.m */; };
 		6C1863A320DB8CD800758A0A /* ZTImagePickerPreImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C18639E20DB8CD800758A0A /* ZTImagePickerPreImageView.m */; };
 		6C1863A420DB8CD800758A0A /* ZTShowImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1863A020DB8CD800758A0A /* ZTShowImageController.m */; };
+		6C1863A720DB8FBF00758A0A /* ZTLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1863A520DB8FBF00758A0A /* ZTLocationModel.m */; };
 		B73C6B8C1EC73D2A001D6AF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B73C6B8B1EC73D2A001D6AF4 /* main.m */; };
 		B73C6B8F1EC73D2A001D6AF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B73C6B8E1EC73D2A001D6AF4 /* AppDelegate.m */; };
 		B73C6B921EC73D2A001D6AF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B73C6B911EC73D2A001D6AF4 /* ViewController.m */; };
@@ -39,7 +40,6 @@
 		B73C6B9A1EC73D2A001D6AF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73C6B981EC73D2A001D6AF4 /* LaunchScreen.storyboard */; };
 		B73C6BA51EC73D2B001D6AF4 /* ZTImagePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B73C6BA41EC73D2B001D6AF4 /* ZTImagePickerTests.m */; };
 		B73C6BB01EC73D2B001D6AF4 /* ZTImagePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B73C6BAF1EC73D2B001D6AF4 /* ZTImagePickerUITests.m */; };
-		B7CD57081EEF81BF004166CC /* ZTLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CD57071EEF81BF004166CC /* ZTLocationModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +103,8 @@
 		6C18639E20DB8CD800758A0A /* ZTImagePickerPreImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTImagePickerPreImageView.m; sourceTree = "<group>"; };
 		6C18639F20DB8CD800758A0A /* ZTShowImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTShowImageController.h; sourceTree = "<group>"; };
 		6C1863A020DB8CD800758A0A /* ZTShowImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTShowImageController.m; sourceTree = "<group>"; };
+		6C1863A520DB8FBF00758A0A /* ZTLocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTLocationModel.m; sourceTree = "<group>"; };
+		6C1863A620DB8FBF00758A0A /* ZTLocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTLocationModel.h; sourceTree = "<group>"; };
 		B73C6B871EC73D2A001D6AF4 /* ZTImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZTImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73C6B8B1EC73D2A001D6AF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B73C6B8D1EC73D2A001D6AF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -119,8 +121,6 @@
 		B73C6BAB1EC73D2B001D6AF4 /* ZTImagePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZTImagePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73C6BAF1EC73D2B001D6AF4 /* ZTImagePickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTImagePickerUITests.m; sourceTree = "<group>"; };
 		B73C6BB11EC73D2B001D6AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7CD57061EEF81BE004166CC /* ZTLocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTLocationModel.h; sourceTree = "<group>"; };
-		B7CD57071EEF81BF004166CC /* ZTLocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTLocationModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +209,8 @@
 			children = (
 				6C18638720DB8CA800758A0A /* XBWaterMarkHandleProblemModel.h */,
 				6C18638820DB8CA800758A0A /* XBWaterMarkHandleProblemModel.m */,
+				6C1863A620DB8FBF00758A0A /* ZTLocationModel.h */,
+				6C1863A520DB8FBF00758A0A /* ZTLocationModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -274,8 +276,6 @@
 				B73C6B911EC73D2A001D6AF4 /* ViewController.m */,
 				6C18635920DB858D00758A0A /* NaviGationViewController.h */,
 				6C18635820DB858D00758A0A /* NaviGationViewController.m */,
-				B7CD57061EEF81BE004166CC /* ZTLocationModel.h */,
-				B7CD57071EEF81BF004166CC /* ZTLocationModel.m */,
 				B73C6B931EC73D2A001D6AF4 /* Main.storyboard */,
 				B73C6B961EC73D2A001D6AF4 /* Assets.xcassets */,
 				B73C6B981EC73D2A001D6AF4 /* LaunchScreen.storyboard */,
@@ -465,7 +465,6 @@
 				6C18639720DB8CA800758A0A /* XBWaterMarkCameraHandler.m in Sources */,
 				6C18637F20DB873600758A0A /* UIImage+XIMAddition.m in Sources */,
 				B73C6B8F1EC73D2A001D6AF4 /* AppDelegate.m in Sources */,
-				B7CD57081EEF81BF004166CC /* ZTLocationModel.m in Sources */,
 				6C18639520DB8CA800758A0A /* XBWaterTypeHandleProblemView.m in Sources */,
 				B73C6B8C1EC73D2A001D6AF4 /* main.m in Sources */,
 				6C18639420DB8CA800758A0A /* XBWatermarkScrollView.m in Sources */,
@@ -473,6 +472,7 @@
 				6C18637B20DB873600758A0A /* NSFileManager+XIMAddition.m in Sources */,
 				6C18637C20DB873600758A0A /* NSObject+Extension.m in Sources */,
 				6C18638120DB873600758A0A /* UIView+Category.m in Sources */,
+				6C1863A720DB8FBF00758A0A /* ZTLocationModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

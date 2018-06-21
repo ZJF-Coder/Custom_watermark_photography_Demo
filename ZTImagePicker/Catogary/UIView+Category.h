@@ -30,7 +30,6 @@
 -(UIViewController *)viewcontroller;
 -(void)removeAllSubviews;
 -(void)setbackgroundImage:(UIImage *)img;
-
 - (void)bringToFront;
 
 - (UIImage *)imageByRenderingView;
