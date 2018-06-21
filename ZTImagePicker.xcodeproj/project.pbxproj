@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C18635420DA370600758A0A /* ZTShowImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C18635320DA370600758A0A /* ZTShowImageController.m */; };
 		6C18635A20DB858D00758A0A /* NaviGationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C18635820DB858D00758A0A /* NaviGationViewController.m */; };
 		6C18636120DB86DC00758A0A /* camera_light_c@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C18635C20DB86DC00758A0A /* camera_light_c@2x.png */; };
 		6C18636220DB86DC00758A0A /* camera_light_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C18635D20DB86DC00758A0A /* camera_light_n@2x.png */; };
@@ -22,12 +21,16 @@
 		6C18637F20DB873600758A0A /* UIImage+XIMAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C18637420DB873600758A0A /* UIImage+XIMAddition.m */; };
 		6C18638020DB873600758A0A /* UIScrollView+XIMAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C18637620DB873600758A0A /* UIScrollView+XIMAddition.m */; };
 		6C18638120DB873600758A0A /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C18637820DB873600758A0A /* UIView+Category.m */; };
-		B71B651B1EEF905E00F813CF /* XBImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B650A1EEF905E00F813CF /* XBImagePickerController.m */; };
-		B71B651C1EEF905E00F813CF /* XBWaterMarkCameraHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B650C1EEF905E00F813CF /* XBWaterMarkCameraHandler.m */; };
-		B71B651D1EEF905E00F813CF /* XBWaterMarkHandleProblemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B650E1EEF905E00F813CF /* XBWaterMarkHandleProblemModel.m */; };
-		B71B65201EEF905E00F813CF /* XBWatermarkScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B65141EEF905E00F813CF /* XBWatermarkScrollView.m */; };
-		B71B65221EEF905E00F813CF /* XBWaterTypeHandleProblemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B65181EEF905E00F813CF /* XBWaterTypeHandleProblemView.m */; };
-		B71B65231EEF905E00F813CF /* XBWaterTypeWorkReportView.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B651A1EEF905E00F813CF /* XBWaterTypeWorkReportView.m */; };
+		6C18639220DB8CA800758A0A /* XBImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C18638520DB8CA800758A0A /* XBImagePickerController.m */; };
+		6C18639320DB8CA800758A0A /* XBWaterMarkHandleProblemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C18638820DB8CA800758A0A /* XBWaterMarkHandleProblemModel.m */; };
+		6C18639420DB8CA800758A0A /* XBWatermarkScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C18638B20DB8CA800758A0A /* XBWatermarkScrollView.m */; };
+		6C18639520DB8CA800758A0A /* XBWaterTypeHandleProblemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C18638D20DB8CA800758A0A /* XBWaterTypeHandleProblemView.m */; };
+		6C18639620DB8CA800758A0A /* XBWaterTypeWorkReportView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C18638F20DB8CA800758A0A /* XBWaterTypeWorkReportView.m */; };
+		6C18639720DB8CA800758A0A /* XBWaterMarkCameraHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C18639120DB8CA800758A0A /* XBWaterMarkCameraHandler.m */; };
+		6C1863A120DB8CD800758A0A /* ZTImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C18639A20DB8CD800758A0A /* ZTImagePickerController.m */; };
+		6C1863A220DB8CD800758A0A /* ZTImagePickerOverLayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C18639C20DB8CD800758A0A /* ZTImagePickerOverLayView.m */; };
+		6C1863A320DB8CD800758A0A /* ZTImagePickerPreImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C18639E20DB8CD800758A0A /* ZTImagePickerPreImageView.m */; };
+		6C1863A420DB8CD800758A0A /* ZTShowImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1863A020DB8CD800758A0A /* ZTShowImageController.m */; };
 		B73C6B8C1EC73D2A001D6AF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B73C6B8B1EC73D2A001D6AF4 /* main.m */; };
 		B73C6B8F1EC73D2A001D6AF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B73C6B8E1EC73D2A001D6AF4 /* AppDelegate.m */; };
 		B73C6B921EC73D2A001D6AF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B73C6B911EC73D2A001D6AF4 /* ViewController.m */; };
@@ -36,9 +39,6 @@
 		B73C6B9A1EC73D2A001D6AF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73C6B981EC73D2A001D6AF4 /* LaunchScreen.storyboard */; };
 		B73C6BA51EC73D2B001D6AF4 /* ZTImagePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B73C6BA41EC73D2B001D6AF4 /* ZTImagePickerTests.m */; };
 		B73C6BB01EC73D2B001D6AF4 /* ZTImagePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B73C6BAF1EC73D2B001D6AF4 /* ZTImagePickerUITests.m */; };
-		B7CD56D01EEF7B7F004166CC /* ZTImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CD56C81EEF7B7F004166CC /* ZTImagePickerController.m */; };
-		B7CD56D11EEF7B7F004166CC /* ZTImagePickerOverLayView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CD56CA1EEF7B7F004166CC /* ZTImagePickerOverLayView.m */; };
-		B7CD56D21EEF7B7F004166CC /* ZTImagePickerPreImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CD56CC1EEF7B7F004166CC /* ZTImagePickerPreImageView.m */; };
 		B7CD57081EEF81BF004166CC /* ZTLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CD57071EEF81BF004166CC /* ZTLocationModel.m */; };
 /* End PBXBuildFile section */
 
@@ -60,8 +60,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6C18635220DA370600758A0A /* ZTShowImageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTShowImageController.h; sourceTree = "<group>"; };
-		6C18635320DA370600758A0A /* ZTShowImageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTShowImageController.m; sourceTree = "<group>"; };
 		6C18635820DB858D00758A0A /* NaviGationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaviGationViewController.m; sourceTree = "<group>"; };
 		6C18635920DB858D00758A0A /* NaviGationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaviGationViewController.h; sourceTree = "<group>"; };
 		6C18635C20DB86DC00758A0A /* camera_light_c@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_light_c@2x.png"; sourceTree = "<group>"; };
@@ -85,18 +83,26 @@
 		6C18637620DB873600758A0A /* UIScrollView+XIMAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+XIMAddition.m"; sourceTree = "<group>"; };
 		6C18637720DB873600758A0A /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
 		6C18637820DB873600758A0A /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
-		B71B65091EEF905E00F813CF /* XBImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XBImagePickerController.h; path = ZTWaterMark/XBImagePickerController.h; sourceTree = "<group>"; };
-		B71B650A1EEF905E00F813CF /* XBImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XBImagePickerController.m; path = ZTWaterMark/XBImagePickerController.m; sourceTree = "<group>"; };
-		B71B650B1EEF905E00F813CF /* XBWaterMarkCameraHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XBWaterMarkCameraHandler.h; path = ZTWaterMark/XBWaterMarkCameraHandler.h; sourceTree = "<group>"; };
-		B71B650C1EEF905E00F813CF /* XBWaterMarkCameraHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XBWaterMarkCameraHandler.m; path = ZTWaterMark/XBWaterMarkCameraHandler.m; sourceTree = "<group>"; };
-		B71B650D1EEF905E00F813CF /* XBWaterMarkHandleProblemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XBWaterMarkHandleProblemModel.h; path = ZTWaterMark/XBWaterMarkHandleProblemModel.h; sourceTree = "<group>"; };
-		B71B650E1EEF905E00F813CF /* XBWaterMarkHandleProblemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XBWaterMarkHandleProblemModel.m; path = ZTWaterMark/XBWaterMarkHandleProblemModel.m; sourceTree = "<group>"; };
-		B71B65131EEF905E00F813CF /* XBWatermarkScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XBWatermarkScrollView.h; path = ZTWaterMark/XBWatermarkScrollView.h; sourceTree = "<group>"; };
-		B71B65141EEF905E00F813CF /* XBWatermarkScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XBWatermarkScrollView.m; path = ZTWaterMark/XBWatermarkScrollView.m; sourceTree = "<group>"; };
-		B71B65171EEF905E00F813CF /* XBWaterTypeHandleProblemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XBWaterTypeHandleProblemView.h; path = ZTWaterMark/XBWaterTypeHandleProblemView.h; sourceTree = "<group>"; };
-		B71B65181EEF905E00F813CF /* XBWaterTypeHandleProblemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XBWaterTypeHandleProblemView.m; path = ZTWaterMark/XBWaterTypeHandleProblemView.m; sourceTree = "<group>"; };
-		B71B65191EEF905E00F813CF /* XBWaterTypeWorkReportView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XBWaterTypeWorkReportView.h; path = ZTWaterMark/XBWaterTypeWorkReportView.h; sourceTree = "<group>"; };
-		B71B651A1EEF905E00F813CF /* XBWaterTypeWorkReportView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XBWaterTypeWorkReportView.m; path = ZTWaterMark/XBWaterTypeWorkReportView.m; sourceTree = "<group>"; };
+		6C18638420DB8CA800758A0A /* XBImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBImagePickerController.h; sourceTree = "<group>"; };
+		6C18638520DB8CA800758A0A /* XBImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBImagePickerController.m; sourceTree = "<group>"; };
+		6C18638720DB8CA800758A0A /* XBWaterMarkHandleProblemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBWaterMarkHandleProblemModel.h; sourceTree = "<group>"; };
+		6C18638820DB8CA800758A0A /* XBWaterMarkHandleProblemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBWaterMarkHandleProblemModel.m; sourceTree = "<group>"; };
+		6C18638A20DB8CA800758A0A /* XBWatermarkScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBWatermarkScrollView.h; sourceTree = "<group>"; };
+		6C18638B20DB8CA800758A0A /* XBWatermarkScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBWatermarkScrollView.m; sourceTree = "<group>"; };
+		6C18638C20DB8CA800758A0A /* XBWaterTypeHandleProblemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBWaterTypeHandleProblemView.h; sourceTree = "<group>"; };
+		6C18638D20DB8CA800758A0A /* XBWaterTypeHandleProblemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBWaterTypeHandleProblemView.m; sourceTree = "<group>"; };
+		6C18638E20DB8CA800758A0A /* XBWaterTypeWorkReportView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBWaterTypeWorkReportView.h; sourceTree = "<group>"; };
+		6C18638F20DB8CA800758A0A /* XBWaterTypeWorkReportView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBWaterTypeWorkReportView.m; sourceTree = "<group>"; };
+		6C18639020DB8CA800758A0A /* XBWaterMarkCameraHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBWaterMarkCameraHandler.h; sourceTree = "<group>"; };
+		6C18639120DB8CA800758A0A /* XBWaterMarkCameraHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBWaterMarkCameraHandler.m; sourceTree = "<group>"; };
+		6C18639920DB8CD800758A0A /* ZTImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTImagePickerController.h; sourceTree = "<group>"; };
+		6C18639A20DB8CD800758A0A /* ZTImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTImagePickerController.m; sourceTree = "<group>"; };
+		6C18639B20DB8CD800758A0A /* ZTImagePickerOverLayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTImagePickerOverLayView.h; sourceTree = "<group>"; };
+		6C18639C20DB8CD800758A0A /* ZTImagePickerOverLayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTImagePickerOverLayView.m; sourceTree = "<group>"; };
+		6C18639D20DB8CD800758A0A /* ZTImagePickerPreImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTImagePickerPreImageView.h; sourceTree = "<group>"; };
+		6C18639E20DB8CD800758A0A /* ZTImagePickerPreImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTImagePickerPreImageView.m; sourceTree = "<group>"; };
+		6C18639F20DB8CD800758A0A /* ZTShowImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTShowImageController.h; sourceTree = "<group>"; };
+		6C1863A020DB8CD800758A0A /* ZTShowImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTShowImageController.m; sourceTree = "<group>"; };
 		B73C6B871EC73D2A001D6AF4 /* ZTImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZTImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73C6B8B1EC73D2A001D6AF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B73C6B8D1EC73D2A001D6AF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,12 +119,6 @@
 		B73C6BAB1EC73D2B001D6AF4 /* ZTImagePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZTImagePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73C6BAF1EC73D2B001D6AF4 /* ZTImagePickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTImagePickerUITests.m; sourceTree = "<group>"; };
 		B73C6BB11EC73D2B001D6AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7CD56C81EEF7B7F004166CC /* ZTImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZTImagePickerController.m; path = ZTImagePicker/ZTImagePickerController.m; sourceTree = "<group>"; };
-		B7CD56C91EEF7B7F004166CC /* ZTImagePickerOverLayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZTImagePickerOverLayView.h; path = ZTImagePicker/ZTImagePickerOverLayView.h; sourceTree = "<group>"; };
-		B7CD56CA1EEF7B7F004166CC /* ZTImagePickerOverLayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZTImagePickerOverLayView.m; path = ZTImagePicker/ZTImagePickerOverLayView.m; sourceTree = "<group>"; };
-		B7CD56CB1EEF7B7F004166CC /* ZTImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZTImagePickerController.h; path = ZTImagePicker/ZTImagePickerController.h; sourceTree = "<group>"; };
-		B7CD56CC1EEF7B7F004166CC /* ZTImagePickerPreImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZTImagePickerPreImageView.m; path = ZTImagePicker/ZTImagePickerPreImageView.m; sourceTree = "<group>"; };
-		B7CD56CD1EEF7B7F004166CC /* ZTImagePickerPreImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZTImagePickerPreImageView.h; path = ZTImagePicker/ZTImagePickerPreImageView.h; sourceTree = "<group>"; };
 		B7CD57061EEF81BE004166CC /* ZTLocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTLocationModel.h; sourceTree = "<group>"; };
 		B7CD57071EEF81BF004166CC /* ZTLocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTLocationModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -183,35 +183,62 @@
 			path = Catogary;
 			sourceTree = "<group>";
 		};
-		B71B65241EEF906700F813CF /* View */ = {
+		6C18638220DB8CA800758A0A /* ZTWaterMark */ = {
 			isa = PBXGroup;
 			children = (
-				B71B65131EEF905E00F813CF /* XBWatermarkScrollView.h */,
-				B71B65141EEF905E00F813CF /* XBWatermarkScrollView.m */,
-				B71B65171EEF905E00F813CF /* XBWaterTypeHandleProblemView.h */,
-				B71B65181EEF905E00F813CF /* XBWaterTypeHandleProblemView.m */,
-				B71B65191EEF905E00F813CF /* XBWaterTypeWorkReportView.h */,
-				B71B651A1EEF905E00F813CF /* XBWaterTypeWorkReportView.m */,
+				6C18638320DB8CA800758A0A /* controller */,
+				6C18638620DB8CA800758A0A /* model */,
+				6C18638920DB8CA800758A0A /* view */,
+				6C18639020DB8CA800758A0A /* XBWaterMarkCameraHandler.h */,
+				6C18639120DB8CA800758A0A /* XBWaterMarkCameraHandler.m */,
 			);
-			name = View;
+			path = ZTWaterMark;
 			sourceTree = "<group>";
 		};
-		B71B65251EEF906F00F813CF /* Model */ = {
+		6C18638320DB8CA800758A0A /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				B71B650D1EEF905E00F813CF /* XBWaterMarkHandleProblemModel.h */,
-				B71B650E1EEF905E00F813CF /* XBWaterMarkHandleProblemModel.m */,
+				6C18638420DB8CA800758A0A /* XBImagePickerController.h */,
+				6C18638520DB8CA800758A0A /* XBImagePickerController.m */,
 			);
-			name = Model;
+			path = controller;
 			sourceTree = "<group>";
 		};
-		B71B65261EEF907F00F813CF /* ViewController */ = {
+		6C18638620DB8CA800758A0A /* model */ = {
 			isa = PBXGroup;
 			children = (
-				B71B65091EEF905E00F813CF /* XBImagePickerController.h */,
-				B71B650A1EEF905E00F813CF /* XBImagePickerController.m */,
+				6C18638720DB8CA800758A0A /* XBWaterMarkHandleProblemModel.h */,
+				6C18638820DB8CA800758A0A /* XBWaterMarkHandleProblemModel.m */,
 			);
-			name = ViewController;
+			path = model;
+			sourceTree = "<group>";
+		};
+		6C18638920DB8CA800758A0A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6C18638A20DB8CA800758A0A /* XBWatermarkScrollView.h */,
+				6C18638B20DB8CA800758A0A /* XBWatermarkScrollView.m */,
+				6C18638C20DB8CA800758A0A /* XBWaterTypeHandleProblemView.h */,
+				6C18638D20DB8CA800758A0A /* XBWaterTypeHandleProblemView.m */,
+				6C18638E20DB8CA800758A0A /* XBWaterTypeWorkReportView.h */,
+				6C18638F20DB8CA800758A0A /* XBWaterTypeWorkReportView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		6C18639820DB8CD800758A0A /* ZTImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				6C18639920DB8CD800758A0A /* ZTImagePickerController.h */,
+				6C18639A20DB8CD800758A0A /* ZTImagePickerController.m */,
+				6C18639B20DB8CD800758A0A /* ZTImagePickerOverLayView.h */,
+				6C18639C20DB8CD800758A0A /* ZTImagePickerOverLayView.m */,
+				6C18639D20DB8CD800758A0A /* ZTImagePickerPreImageView.h */,
+				6C18639E20DB8CD800758A0A /* ZTImagePickerPreImageView.m */,
+				6C18639F20DB8CD800758A0A /* ZTShowImageController.h */,
+				6C1863A020DB8CD800758A0A /* ZTShowImageController.m */,
+			);
+			path = ZTImagePicker;
 			sourceTree = "<group>";
 		};
 		B73C6B7E1EC73D2A001D6AF4 = {
@@ -237,10 +264,10 @@
 		B73C6B891EC73D2A001D6AF4 /* ZTImagePicker */ = {
 			isa = PBXGroup;
 			children = (
+				6C18639820DB8CD800758A0A /* ZTImagePicker */,
+				6C18638220DB8CA800758A0A /* ZTWaterMark */,
 				6C18635B20DB86DC00758A0A /* support */,
 				6C18636620DB873600758A0A /* Catogary */,
-				B7CD56C71EEF7B59004166CC /* ZTImagePicker */,
-				B7CD570D1EEF89C6004166CC /* ZTWaterMark */,
 				B73C6B8D1EC73D2A001D6AF4 /* AppDelegate.h */,
 				B73C6B8E1EC73D2A001D6AF4 /* AppDelegate.m */,
 				B73C6B901EC73D2A001D6AF4 /* ViewController.h */,
@@ -282,33 +309,6 @@
 				B73C6BB11EC73D2B001D6AF4 /* Info.plist */,
 			);
 			path = ZTImagePickerUITests;
-			sourceTree = "<group>";
-		};
-		B7CD56C71EEF7B59004166CC /* ZTImagePicker */ = {
-			isa = PBXGroup;
-			children = (
-				B7CD56CB1EEF7B7F004166CC /* ZTImagePickerController.h */,
-				B7CD56C81EEF7B7F004166CC /* ZTImagePickerController.m */,
-				6C18635220DA370600758A0A /* ZTShowImageController.h */,
-				6C18635320DA370600758A0A /* ZTShowImageController.m */,
-				B7CD56C91EEF7B7F004166CC /* ZTImagePickerOverLayView.h */,
-				B7CD56CA1EEF7B7F004166CC /* ZTImagePickerOverLayView.m */,
-				B7CD56CD1EEF7B7F004166CC /* ZTImagePickerPreImageView.h */,
-				B7CD56CC1EEF7B7F004166CC /* ZTImagePickerPreImageView.m */,
-			);
-			name = ZTImagePicker;
-			sourceTree = "<group>";
-		};
-		B7CD570D1EEF89C6004166CC /* ZTWaterMark */ = {
-			isa = PBXGroup;
-			children = (
-				B71B65261EEF907F00F813CF /* ViewController */,
-				B71B65251EEF906F00F813CF /* Model */,
-				B71B65241EEF906700F813CF /* View */,
-				B71B650B1EEF905E00F813CF /* XBWaterMarkCameraHandler.h */,
-				B71B650C1EEF905E00F813CF /* XBWaterMarkCameraHandler.m */,
-			);
-			name = ZTWaterMark;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -450,29 +450,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7CD56D11EEF7B7F004166CC /* ZTImagePickerOverLayView.m in Sources */,
+				6C18639220DB8CA800758A0A /* XBImagePickerController.m in Sources */,
+				6C18639320DB8CA800758A0A /* XBWaterMarkHandleProblemModel.m in Sources */,
 				6C18637920DB873600758A0A /* NSDate+FWAddition.m in Sources */,
+				6C1863A420DB8CD800758A0A /* ZTShowImageController.m in Sources */,
 				6C18637A20DB873600758A0A /* NSDateAdditions.m in Sources */,
+				6C1863A320DB8CD800758A0A /* ZTImagePickerPreImageView.m in Sources */,
 				6C18635A20DB858D00758A0A /* NaviGationViewController.m in Sources */,
 				B73C6B921EC73D2A001D6AF4 /* ViewController.m in Sources */,
-				6C18635420DA370600758A0A /* ZTShowImageController.m in Sources */,
-				B7CD56D21EEF7B7F004166CC /* ZTImagePickerPreImageView.m in Sources */,
 				6C18638020DB873600758A0A /* UIScrollView+XIMAddition.m in Sources */,
-				B71B65231EEF905E00F813CF /* XBWaterTypeWorkReportView.m in Sources */,
+				6C1863A220DB8CD800758A0A /* ZTImagePickerOverLayView.m in Sources */,
+				6C1863A120DB8CD800758A0A /* ZTImagePickerController.m in Sources */,
+				6C18639620DB8CA800758A0A /* XBWaterTypeWorkReportView.m in Sources */,
+				6C18639720DB8CA800758A0A /* XBWaterMarkCameraHandler.m in Sources */,
 				6C18637F20DB873600758A0A /* UIImage+XIMAddition.m in Sources */,
-				B71B65201EEF905E00F813CF /* XBWatermarkScrollView.m in Sources */,
 				B73C6B8F1EC73D2A001D6AF4 /* AppDelegate.m in Sources */,
-				B71B651C1EEF905E00F813CF /* XBWaterMarkCameraHandler.m in Sources */,
 				B7CD57081EEF81BF004166CC /* ZTLocationModel.m in Sources */,
+				6C18639520DB8CA800758A0A /* XBWaterTypeHandleProblemView.m in Sources */,
 				B73C6B8C1EC73D2A001D6AF4 /* main.m in Sources */,
-				B71B651B1EEF905E00F813CF /* XBImagePickerController.m in Sources */,
-				B7CD56D01EEF7B7F004166CC /* ZTImagePickerController.m in Sources */,
+				6C18639420DB8CA800758A0A /* XBWatermarkScrollView.m in Sources */,
 				6C18637E20DB873600758A0A /* UIImage+FWAddition.m in Sources */,
 				6C18637B20DB873600758A0A /* NSFileManager+XIMAddition.m in Sources */,
-				B71B65221EEF905E00F813CF /* XBWaterTypeHandleProblemView.m in Sources */,
 				6C18637C20DB873600758A0A /* NSObject+Extension.m in Sources */,
 				6C18638120DB873600758A0A /* UIView+Category.m in Sources */,
-				B71B651D1EEF905E00F813CF /* XBWaterMarkHandleProblemModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
